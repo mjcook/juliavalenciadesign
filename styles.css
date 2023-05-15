@@ -231,9 +231,6 @@ img {
     
 }
 
-.nav a:active {
-    text-decoration: underline;
-}
 
 .nav li{
     text-align: center;
@@ -314,9 +311,7 @@ img {
         
     }
 
-    .mobile-nav a:active {
-        text-decoration: underline;
-    }
+    
   
     .mobile-nav a{
         color:#000000;
@@ -325,7 +320,7 @@ img {
     
     .mobile-nav a:hover{
         color:#DDB0A4;
-        text-decoration: underline;    
+          
     }
     
     .mobile-nav li {

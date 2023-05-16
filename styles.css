@@ -828,17 +828,17 @@ footer {
     background-color: #547F52;
     align-items: center;
     margin-top: 5%;
-    padding-top: 10%;
-    height: auto;
+    padding-top: 8%;
+    min-height: 800px;
     width: auto;
-    min-height: 900px;
+   
     
 }
 .contact {
     padding: 0px;
     text-align: center;
     position: relative;
-    height: auto;
+    
     width: 100%;
     max-width: 1200px;
     margin-left: 25px;

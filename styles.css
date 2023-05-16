@@ -16,8 +16,7 @@ body {
 section {
     width: 100%;
     text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: auto;
+    padding: 0px 0px 40px 0px;
     background-color: #ffffff;
    
     
@@ -99,7 +98,6 @@ p {
     color:#FFFFFF;
     border: 2px solid #DDB0A4;
     padding: 18px 32px 18px 32px;
-    margin: 40px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -180,7 +178,6 @@ p {
     color: #ffffff;
     border: solid 2px white;
     padding: 18px 32px 18px 32px;
-    margin: 40px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -599,12 +596,13 @@ footer {
    
     background-color:#547F52;
     color: #ffffff;
-    width: 100%;
-    margin: 0;
+    width: auto;
+    margin: auto;
     height: auto;
     min-height: 200px;
-    padding: 0;
+    padding: 0 20px 0 20px;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     
@@ -913,7 +911,8 @@ footer {
 /* SINGLE IMAGE */
 
 .single-image {
-    max-width:65%;    
+    max-width:65%;
+    width: auto;    
     padding: 50px 0px 50px 0px;
     margin-left: auto;
     margin-right: auto;
@@ -926,7 +925,7 @@ footer {
 /* SINGLE IMAGE COVER */
 
 .single-cover {
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 5% 0px 50px 0px;
 }
@@ -936,7 +935,7 @@ footer {
 /* DOUBLE IMAGE COVER */
 
 .double-cover {
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -963,7 +962,7 @@ footer {
         width: 100%;        
     }
     .double-cover {
-        width: 100%;
+        width: auto;
         height: auto;
         display: flex;
         flex-wrap: wrap;

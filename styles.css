@@ -769,9 +769,8 @@ footer {
 }
 
 #section-4-content {
-    padding-left: 5%;
-    padding-bottom: 2%;
-    max-width: 400px;    
+    
+    max-width: 900px;    
     font-size: 1.3rem;
     text-align: left;
    
@@ -1104,7 +1103,7 @@ footer {
 
 
 .description ul{
-    
+    list-style-type: square;
     list-style-position: outside;
 }
 

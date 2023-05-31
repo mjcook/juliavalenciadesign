@@ -282,7 +282,7 @@ img {
     color:#000000;
     text-decoration: none;
     font-size: 1.2rem;
-
+    
     
     
 }
@@ -370,9 +370,13 @@ img {
     }
 
     .mobile-nav {
-        display: flex;
+        display: inline-flex;
         justify-content: center;
+        align-items: center;
         list-style-type: none;
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
         
     }
 
@@ -380,7 +384,9 @@ img {
   
     .mobile-nav a{
         color:#000000;
-        text-decoration: none;    
+        text-decoration: none; 
+        width: 100%;
+        height: 100%;   
     }
     
     .mobile-nav a:hover{
@@ -390,8 +396,14 @@ img {
     
     .mobile-nav li {
         display: flex;
-        padding-right:20px;
-        padding-left: 20px;
+        flex-grow: 1;
+        text-align: center;
+        padding: 3%;
+        
+        
+        
+        
+        
              
     }
     
@@ -829,66 +841,47 @@ footer {
 
 .contact-container {
     display: flex;
-    justify-content: center;
-    background-color: #547F52;
-    align-items: center;
-    margin-top: 5%;
+    flex-wrap: wrap;
     padding-top: 8%;
-    min-height: 800px;
+    justify-content: center;
+    align-items: center;     
     width: auto;
    
     
 }
-.contact {
-    padding: 0px;
-    text-align: center;
-    position: relative;
-    
-    width: 100%;
-    max-width: 1200px;
-    margin-left: 25px;
-    margin-right: 25px;
-    min-height: 800px;
-
-}
 
 
 .contact-photo {
-    position: absolute;
-    z-index: 1;
-    left: 25px;
-    width: 75%;
-    max-width: 800px;
-    max-height: 600px;
-    height: auto;
+    
+   
+    min-width: 300px;
+    width: auto;
+    max-width: 100%;
+    margin: 5%;
     background: rgba(0, 128, 0, 0);
     opacity: 1;
+    overflow: hidden;
     
-    overflow:hidden;
+    
     
 }
 
 .contact-photo img{
+    max-width: 600px;
     
-    border-radius: 20px;
-    max-height: 600px;
-    
- 
 }
 
 .contact-card {
-    position: absolute;
-    top: 14%;
-    padding: 25px;
-    right: 30px;
-    z-index: 2;
-    min-width: 30%;
+    
+    width: auto;
+    padding: 5%;
+    margin: 5%;
+    max-width: 100%;
     text-align: left;
-    height: auto;
+    
     background:#DDB0A4;
     opacity: 1;
     border-radius: 0;
-    display: block;
     
     
 
@@ -897,18 +890,18 @@ footer {
 .contact-card a {
     color: #ffffff;
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-card a:hover {
     color:#547F52;
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-card p{
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 

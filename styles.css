@@ -473,7 +473,7 @@ img {
 
 #projects {
         max-width: 100%;
-        padding: 5% 4% 80px 4%;
+        padding: 7% 4% 80px 4%;
         display: grid;
         justify-content: center;        
         grid-template-columns: 1fr 1fr 1fr;
@@ -566,7 +566,7 @@ img {
 
     #projects {
         max-width: 100%;
-        padding: 80px 5% 80px 5%;
+        padding: 7% 5% 80px 5%;
         margin: 0;
         display: grid;
         justify-content: center;        
@@ -653,7 +653,7 @@ footer {
     height: auto;
     min-height: 600px;
     
-    margin: 5% 0 0 0;
+    margin: 7% 0 0 0;
     padding: 120px 30px 120px 30px;
     background-color: #547F52;
     gap: 0px;

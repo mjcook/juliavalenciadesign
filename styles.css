@@ -566,7 +566,7 @@ img {
 
     #projects {
         max-width: 100%;
-        padding: 7% 5% 80px 5%;
+        padding: 7% 34px 80px 34px;
         margin: 0;
         display: grid;
         justify-content: center;        
@@ -847,6 +847,7 @@ footer {
     background-color: #547F52;
     align-items: center;     
     width: auto;
+    
    
     
 }
